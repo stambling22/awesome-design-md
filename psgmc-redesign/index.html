@@ -1,0 +1,867 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PSGMC | Palm Springs Gay Men's Chorus — A Chorus Like No Other</title>
+    <meta name="description" content="The official website for the Palm Springs Gay Men's Chorus. Since 1999, 100+ voices strong. The Official Gay Men's Chorus of the City of Palm Springs. View upcoming concerts, join the chorus, or support our mission.">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ============================================================
+         NAVIGATION
+         ============================================================ -->
+    <nav class="nav" id="navbar">
+        <div class="container nav-inner">
+            <a href="#" class="nav-logo">
+                <img src="logo.png" alt="PSGMC Logo" onerror="this.style.display='none'">
+                <span class="nav-logo-text"><span class="gradient-text">PSGMC</span></span>
+            </a>
+
+            <div class="nav-menu" id="navMenu">
+                <a href="#tickets" class="nav-link">Tickets</a>
+
+                <div class="nav-dropdown">
+                    <a href="#story" class="nav-link">Our Story ▾</a>
+                    <div class="nav-dropdown-menu">
+                        <a href="#story">
+                            <div class="dropdown-icon" style="background: rgba(233,30,99,0.1);">📖</div>
+                            <div><strong>About</strong><br><small style="color:var(--text-muted)">Our mission & vision</small></div>
+                        </a>
+                        <a href="#timeline">
+                            <div class="dropdown-icon" style="background: rgba(255,109,0,0.1);">⏳</div>
+                            <div><strong>History</strong><br><small style="color:var(--text-muted)">Since 1999</small></div>
+                        </a>
+                        <a href="#leadership">
+                            <div class="dropdown-icon" style="background: rgba(255,214,0,0.1);">👥</div>
+                            <div><strong>Leadership</strong><br><small style="color:var(--text-muted)">Board & artistic team</small></div>
+                        </a>
+                        <a href="#arrangement">
+                            <div class="dropdown-icon" style="background: rgba(0,200,83,0.1);">🎶</div>
+                            <div><strong>The Arrangement</strong><br><small style="color:var(--text-muted)">Barbershop ensemble</small></div>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#performances" class="nav-link">Performances</a>
+
+                <div class="nav-dropdown">
+                    <a href="#outreach" class="nav-link">Community ▾</a>
+                    <div class="nav-dropdown-menu">
+                        <a href="#outreach">
+                            <div class="dropdown-icon" style="background: rgba(0,200,83,0.1);">💚</div>
+                            <div><strong>Outreach</strong><br><small style="color:var(--text-muted)">Chorus Cares programs</small></div>
+                        </a>
+                        <a href="#videos">
+                            <div class="dropdown-icon" style="background: rgba(41,121,255,0.1);">🎬</div>
+                            <div><strong>Videos</strong><br><small style="color:var(--text-muted)">Watch performances</small></div>
+                        </a>
+                        <a href="https://psgmc.com/press-releases/" target="_blank">
+                            <div class="dropdown-icon" style="background: rgba(170,0,255,0.1);">📰</div>
+                            <div><strong>Press</strong><br><small style="color:var(--text-muted)">News & releases</small></div>
+                        </a>
+                        <a href="https://psgmc.com/concert-galleries/" target="_blank">
+                            <div class="dropdown-icon" style="background: rgba(233,30,99,0.1);">📸</div>
+                            <div><strong>Galleries</strong><br><small style="color:var(--text-muted)">Concert photography</small></div>
+                        </a>
+                    </div>
+                </div>
+
+                <a href="#join" class="nav-link">Sing With Us</a>
+
+                <div class="nav-dropdown">
+                    <a href="#support" class="nav-link">Support ▾</a>
+                    <div class="nav-dropdown-menu">
+                        <a href="https://psgmc.z2systems.com/np/clients/psgmc/donation.jsp?campaign=1&" target="_blank">
+                            <div class="dropdown-icon" style="background: rgba(255,109,0,0.1);">❤️</div>
+                            <div><strong>Donate Now</strong><br><small style="color:var(--text-muted)">Make a gift today</small></div>
+                        </a>
+                        <a href="#support">
+                            <div class="dropdown-icon" style="background: rgba(255,214,0,0.1);">🌟</div>
+                            <div><strong>Maestro's Circle</strong><br><small style="color:var(--text-muted)">Donor recognition</small></div>
+                        </a>
+                        <a href="https://psgmc.z2systems.com/np/clients/psgmc/donation.jsp?campaign=2&" target="_blank">
+                            <div class="dropdown-icon" style="background: rgba(0,200,83,0.1);">🛡️</div>
+                            <div><strong>Anti-Bullying Fund</strong><br><small style="color:var(--text-muted)">George Zander Memorial</small></div>
+                        </a>
+                        <a href="https://psgmc.com/legacy-society/" target="_blank">
+                            <div class="dropdown-icon" style="background: rgba(170,0,255,0.1);">🏛️</div>
+                            <div><strong>Legacy Society</strong><br><small style="color:var(--text-muted)">Planned giving</small></div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <a href="https://www.palmspringsplazatheatre.com/events/detail/psgmc" target="_blank" class="btn btn-primary nav-cta-desktop">Get Tickets</a>
+
+            <div class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- ============================================================
+         HERO — Full-screen cinematic image with overlay
+         ============================================================ -->
+    <header class="hero" id="home">
+        <div class="hero-video-container">
+            <img src="img-stage.png" alt="Palm Springs Gay Men's Chorus performing on stage with rainbow lighting">
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-rainbow-bar"></div>
+
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span class="dot"></span>
+                26th Season · Inaugural Artists in Residence · Plaza Theatre
+            </div>
+            <h1>
+                <span class="line-1">A Chorus</span>
+                <span class="line-2">Like No Other</span>
+            </h1>
+            <p class="hero-sub">100+ voices strong. Proudly representing the heart and soul of Palm Springs since 1999. The official Gay Men's Chorus of the City of Palm Springs.</p>
+            <div class="hero-actions">
+                <a href="https://www.palmspringsplazatheatre.com/events/detail/psgmc" target="_blank" class="btn btn-ticket">🎟️ Get Tickets</a>
+                <a href="#join" class="btn btn-outline">Sing With Us</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ============================================================
+         CURRENT TICKETS — Split: Concert Poster + Details
+         ============================================================ -->
+    <section class="ticket-section" id="tickets">
+        <div class="container ticket-inner">
+            <div class="ticket-visual reveal-left">
+                <img src="img-stage.png" alt="PSGMC on stage — Rhinestones & Rainbows">
+            </div>
+            <div class="ticket-info reveal-right">
+                <span class="ticket-label">🔥 Now On Sale</span>
+                <h2><span class="gradient-text">Rhinestones</span><br>& Rainbows</h2>
+                <p class="show-date">April 2026 · Season 26</p>
+                <p class="show-venue">📍 Plaza Theatre, Palm Springs</p>
+                <p class="show-desc">Don't miss the newest production from PSGMC. An electrifying evening of music, community, and pride under one roof. Featuring the full 100+ voice chorus and Bruce Kenyon's The Arrangement.</p>
+                <div class="ticket-meta">
+                    <div class="ticket-meta-item">
+                        <div class="meta-value">100+</div>
+                        <div class="meta-label">Voices</div>
+                    </div>
+                    <div class="ticket-meta-item">
+                        <div class="meta-value">26th</div>
+                        <div class="meta-label">Season</div>
+                    </div>
+                    <div class="ticket-meta-item">
+                        <div class="meta-value">2</div>
+                        <div class="meta-label">Shows</div>
+                    </div>
+                </div>
+                <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                    <a href="https://www.palmspringsplazatheatre.com/events/detail/psgmc" target="_blank" class="btn btn-ticket">🎟️ Purchase Tickets</a>
+                    <a href="#performances" class="btn btn-ghost">View All Shows</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         📸 PHOTO BREAK — Pride Parade (full-bleed)
+         ============================================================ -->
+    <div class="photo-break">
+        <img src="img-pride.png" alt="PSGMC marching at Palm Springs Pride Parade">
+        <div class="photo-overlay"></div>
+        <div class="photo-caption"><span>Greater Palm Springs Pride · Community Celebrating Together</span></div>
+    </div>
+
+
+    <!-- ============================================================
+         PAST PERFORMANCES — Rotating Carousel with Images
+         ============================================================ -->
+    <section class="performances-section" id="performances">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">🎭 Our Legacy</span>
+                <h2>Past <span class="gradient-text">Performances</span></h2>
+                <p>25+ years of unforgettable productions. Click any show to view the gallery.</p>
+            </div>
+
+            <div class="carousel-container">
+                <div class="carousel-track" id="carouselTrack">
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/concert-galleries/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-stage.png" alt="Rhinestones & Rainbows">
+                            <div class="year-badge">APR 2026</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Rhinestones & Rainbows</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/bells-brass-sass-gallery/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-plaza.png" alt="Bells, Brass & Sass">
+                            <div class="year-badge">DEC 2025</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Bells, Brass & Sass</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/disney-pride-in-concert/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-pride.png" alt="DisneyPride in Concert">
+                            <div class="year-badge">APR 2025</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>DisneyPride in Concert</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/fa-la-la-fabulous/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-arrangement.png" alt="Fa La La Fabulous">
+                            <div class="year-badge">DEC 2024</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Fa La La Fabulous</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/defying-gravity-gallery/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-stage.png" alt="Defying Gravity">
+                            <div class="year-badge">APR 2024</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Defying Gravity</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/ring-swing-sing/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-plaza.png" alt="Ring! Swing! Sing!">
+                            <div class="year-badge">DEC 2023</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Ring! Swing! Sing!</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/notorious','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-arrangement.png" alt="Notorious">
+                            <div class="year-badge">APR 2023</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Notorious</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/naughty-or-nice/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-pride.png" alt="Naughty or Nice?">
+                            <div class="year-badge">DEC 2022</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Naughty or Nice?</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/razzle-dazzle-shine/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-stage.png" alt="Razzle, Dazzle, Shine!">
+                            <div class="year-badge">APR 2022</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Razzle, Dazzle, Shine!</h3>
+                            <div class="director">J.R. Soria-Foust · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/modern-family-holiday/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-plaza.png" alt="A Modern Family Holiday">
+                            <div class="year-badge">DEC 2019</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>A Modern Family Holiday</h3>
+                            <div class="director">Douglas C. Wilson · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/quiet-no-more-a-choral-celebration-of-stonewall/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-pride.png" alt="Quiet No More">
+                            <div class="year-badge">APR 2019</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Quiet No More</h3>
+                            <div class="director">Douglas C. Wilson · Joel Baker</div>
+                        </div>
+                    </div>
+
+                    <div class="performance-card" onclick="window.open('https://psgmc.com/men-in-tights/','_blank')">
+                        <div class="performance-card-img">
+                            <img src="img-arrangement.png" alt="Men In Tights">
+                            <div class="year-badge">DEC 2018</div>
+                            <div class="gallery-overlay"><span>View Gallery →</span></div>
+                        </div>
+                        <div class="performance-card-body">
+                            <h3>Men In Tights</h3>
+                            <div class="director">Douglas C. Wilson · Joel Baker</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn" id="prevBtn" aria-label="Previous">←</button>
+                <button class="carousel-btn" id="nextBtn" aria-label="Next">→</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         OUR STORY — About + Image Stack + History Timeline
+         ============================================================ -->
+    <section class="story-section" id="story">
+        <div class="container story-grid">
+            <div class="story-text reveal-left">
+                <div class="gradient-divider-short"></div>
+                <h2>Our <span class="gradient-text">Story</span></h2>
+                <p>The Palm Springs Gay Men's Chorus was organized in 1999 as the Caballeros, a community chorus of twenty-four men inspired by a holiday concert from the Gay Men's Chorus of Los Angeles. Today, we are 100+ voices strong.</p>
+                <p>In 2018, Mayor Rob Moon and the City of Palm Springs honored us with a Proclamation as <strong>"The Official Gay Men's Chorus of the City of Palm Springs"</strong> — and April 8 was declared Palm Springs Gay Men's Chorus Day.</p>
+                <p>In 2019, 12 members sang with over 525 voices at <strong>Carnegie Hall</strong> in celebration of the 50th Anniversary of Stonewall.</p>
+
+                <div class="story-stats stagger-children">
+                    <div class="stat-card">
+                        <div class="stat-number">27</div>
+                        <div class="stat-label">Years</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">100+</div>
+                        <div class="stat-label">Voices</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Concerts</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-number">15+</div>
+                        <div class="stat-label">Annual Outreach</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- IMAGE STACK: Two overlapping photos -->
+            <div class="story-visual reveal-right">
+                <div class="img-stack">
+                    <div class="img-main">
+                        <img src="img-stage.png" alt="PSGMC performing at the Plaza Theatre">
+                    </div>
+                    <div class="img-accent">
+                        <img src="img-pride.png" alt="PSGMC at Greater Palm Springs Pride">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         📸 PHOTO MOSAIC — Gallery of choir life
+         ============================================================ -->
+    <section style="padding: 60px 0; background: var(--bg-primary);" id="gallery">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">📷 Our World</span>
+                <h2>Life In <span class="gradient-text">the Chorus</span></h2>
+            </div>
+
+            <div class="photo-mosaic reveal-scale">
+                <div class="mosaic-item">
+                    <img src="img-stage.png" alt="Full chorus on stage under rainbow lights">
+                    <div class="mosaic-overlay">
+                        <span class="mosaic-label">On Stage at the Plaza Theatre</span>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="img-pride.png" alt="Pride parade march">
+                    <div class="mosaic-overlay">
+                        <span class="mosaic-label">Greater PS Pride</span>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="img-outreach.png" alt="Community outreach volunteering">
+                    <div class="mosaic-overlay">
+                        <span class="mosaic-label">Chorus Cares</span>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="img-arrangement.png" alt="The Arrangement barbershop ensemble">
+                    <div class="mosaic-overlay">
+                        <span class="mosaic-label">The Arrangement</span>
+                    </div>
+                </div>
+                <div class="mosaic-item">
+                    <img src="img-plaza.png" alt="Plaza Theatre at sunset">
+                    <div class="mosaic-overlay">
+                        <span class="mosaic-label">Our Home — Plaza Theatre</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         TIMELINE — Key Milestones
+         ============================================================ -->
+    <section style="padding: 80px 0; background: var(--bg-elevated);" id="timeline">
+        <div class="container" style="max-width: 800px;">
+            <div class="section-header reveal">
+                <span class="tag">⏳ Our Journey</span>
+                <h2>Key <span class="gradient-text">Milestones</span></h2>
+            </div>
+            <ul class="timeline-mini reveal">
+                <li><strong>1999</strong> — The Caballeros debut with 24 members at a holiday concert</li>
+                <li><strong>2004</strong> — First GALA Choruses Festival performance in Montreal</li>
+                <li><strong>2013</strong> — Rebranded to Palm Springs Gay Men's Chorus</li>
+                <li><strong>2014</strong> — Douglas C. Wilson elected Artistic Director</li>
+                <li><strong>2018</strong> — Proclaimed the Official Gay Men's Chorus of Palm Springs</li>
+                <li><strong>2019</strong> — Carnegie Hall debut for the 50th Anniversary of Stonewall</li>
+                <li><strong>2021</strong> — Jerry R. Soria-Foust named Artistic Director</li>
+                <li><strong>2024</strong> — 26th Season as inaugural Artists in Residence at the Plaza Theatre</li>
+            </ul>
+        </div>
+    </section>
+
+
+    <!-- Mission Statement -->
+    <div style="padding: 60px 0; text-align: center;">
+        <div class="container">
+            <hr class="gradient-divider" style="margin-bottom: 3rem;">
+            <blockquote class="reveal" style="font-size: clamp(1.2rem, 2.5vw, 1.8rem); font-style: italic; font-weight: 300; max-width: 900px; margin: 0 auto; color: var(--text-secondary); line-height: 1.6;">
+                "Through musical excellence, community outreach, and civic responsibility, the Palm Springs Gay Men's Chorus seeks to <span class="gradient-text-warm" style="font-weight: 700; font-style: normal;">entertain, inspire, and educate</span> the culturally diverse community in which we live."
+            </blockquote>
+            <hr class="gradient-divider" style="margin-top: 3rem;">
+        </div>
+    </div>
+
+
+    <!-- ============================================================
+         📸 PHOTO BREAK — Full-bleed stage photo
+         ============================================================ -->
+    <div class="photo-break">
+        <img src="img-stage.png" alt="PSGMC chorus on stage in formation">
+        <div class="photo-overlay-dark"></div>
+        <div class="photo-caption"><span>100+ Voices · One Stage · Infinite Pride</span></div>
+    </div>
+
+
+    <!-- ============================================================
+         COMMUNITY OUTREACH — Image-forward cards
+         ============================================================ -->
+    <section class="outreach-section" id="outreach">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">💚 Giving Back</span>
+                <h2>Community <span class="gradient-text">Impact</span></h2>
+                <p>Since 1999, PSGMC has given back through programs that uplift LGBTQIA+ youth and our broader community.</p>
+            </div>
+
+            <div class="outreach-grid stagger-children">
+                <div class="outreach-card outreach-card-img">
+                    <div class="card-image">
+                        <img src="img-outreach.png" alt="Chorus members sorting donated toys">
+                    </div>
+                    <div class="card-body">
+                        <h3>George Zander Memorial Anti-Bullying Fund</h3>
+                        <p>Providing grants to Gay-Straight Alliances in Palm Springs Unified and Desert Sands school districts, empowering LGBTQ+ youth to build safe environments.</p>
+                    </div>
+                </div>
+                <div class="outreach-card outreach-card-img">
+                    <div class="card-image">
+                        <img src="img-pride.png" alt="Community celebration at Pride">
+                    </div>
+                    <div class="card-body">
+                        <h3>Chorus Cares</h3>
+                        <p>Collecting household items and toys for Martha's Village and Kitchen, running school supply drives, and supporting families across the Coachella Valley.</p>
+                    </div>
+                </div>
+                <div class="outreach-card outreach-card-img">
+                    <div class="card-image">
+                        <img src="img-arrangement.png" alt="Community performance ensemble">
+                    </div>
+                    <div class="card-body">
+                        <h3>Community Performances</h3>
+                        <p>15+ outreach shows annually at DAP Health Equity Walk, Greater PS Pride, Cathedral City LGBT Days, Rainbow Youth Summit, and more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         WATCH US PERFORM — YouTube Embeds
+         ============================================================ -->
+    <section class="video-embed-section" id="videos">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">🎬 Watch & Listen</span>
+                <h2>See Us <span class="gradient-text">Perform</span></h2>
+                <p>From Carnegie Hall to Palm Springs — experience the magic of PSGMC.</p>
+            </div>
+
+            <div class="video-grid reveal">
+                <div class="video-main">
+                    <iframe src="https://www.youtube.com/embed/Qa61gdmxqKQ" title="PSGMC Carnegie Hall Performance" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen loading="lazy"></iframe>
+                </div>
+                <div class="video-sidebar">
+                    <div class="video-thumb" onclick="document.querySelector('.video-main iframe').src='https://www.youtube.com/embed/Qa61gdmxqKQ'">
+                        <img src="img-stage.png" alt="Carnegie Hall performance">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="video-thumb" onclick="document.querySelector('.video-main iframe').src='https://www.youtube.com/embed/cS2l5ByiVXs'">
+                        <img src="img-arrangement.png" alt="PSGMC Sizzle Reel">
+                        <div class="play-icon">▶</div>
+                    </div>
+                    <div class="video-thumb" onclick="document.querySelector('.video-main iframe').src='https://www.youtube.com/embed/4gxBL3rNKUs'">
+                        <img src="img-plaza.png" alt="Favorite One performance">
+                        <div class="play-icon">▶</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         📸 PHOTO BREAK — Plaza Theatre
+         ============================================================ -->
+    <div class="photo-break">
+        <img src="img-plaza.png" alt="The historic Plaza Theatre in Palm Springs at dusk">
+        <div class="photo-overlay"></div>
+        <div class="photo-caption"><span>The Historic Plaza Theatre · Our Home Since 2024</span></div>
+    </div>
+
+
+    <!-- ============================================================
+         THE ARRANGEMENT — With Image
+         ============================================================ -->
+    <section class="arrangement-section" id="arrangement">
+        <div class="container">
+            <div class="arrangement-banner reveal-scale">
+                <div class="arrangement-inner">
+                    <div>
+                        <div class="gradient-divider-short"></div>
+                        <h2>Bruce Kenyon's<br><span class="gradient-text-warm">The Arrangement</span></h2>
+                        <p>One of only two 100% American-born musical categories in history — Barbershop harmony. Our 30-member ensemble delivers stunning four-part close harmony under award-winning director Bruce Kenyon.</p>
+                        <p>Available for smaller private events, intimate gatherings, and community celebrations with a large repertoire of standards.</p>
+                        <a href="https://psgmc.com/book/" target="_blank" class="btn btn-warm" style="margin-top:1rem;">Book The Arrangement</a>
+                    </div>
+                    <div>
+                        <div class="arrangement-img-wrap">
+                            <img src="img-arrangement.png" alt="The Arrangement barbershop ensemble performing">
+                        </div>
+                        <div class="arrangement-features" style="margin-top: 1.5rem;">
+                            <div class="arrangement-feature">
+                                <div class="feat-icon">🎵</div>
+                                <div class="feat-text">30 singing members</div>
+                            </div>
+                            <div class="arrangement-feature">
+                                <div class="feat-icon">🎹</div>
+                                <div class="feat-text">Four-part close harmony</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         AUDITIONS / JOIN — With Image
+         ============================================================ -->
+    <section class="join-section" id="join">
+        <div class="container">
+            <div class="join-grid">
+                <div class="reveal-left">
+                    <div class="gradient-divider-short"></div>
+                    <h2 style="font-size: clamp(2rem, 4vw, 3.5rem); margin-bottom: 1rem;">Find Your <span class="gradient-text-cool">Voice</span></h2>
+                    <p style="color: var(--text-secondary); font-size: 1.1rem; margin-bottom: 2rem; max-width: 480px;">Auditioning can be stressful, but we make it as easy and friendly as possible. The audition is private — just you, the Artistic Director, and our accompanist.</p>
+
+                    <!-- Image in the join section -->
+                    <div class="join-image-wrap" style="margin-bottom: 2rem;">
+                        <img src="img-stage.png" alt="Chorus members rehearsing and singing together">
+                    </div>
+
+                    <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        <a href="https://psgmc.com/wp-content/uploads/2025/12/PSGMC-Audition-Requirements_January-2026.pdf" target="_blank" class="btn btn-primary">Download Audition Info</a>
+                        <a href="#contact" class="btn btn-ghost">Contact Us</a>
+                    </div>
+                </div>
+
+                <div class="join-steps reveal-right">
+                    <div class="join-step">
+                        <div class="step-num">1</div>
+                        <div class="step-content">
+                            <h4>Download Requirements</h4>
+                            <p>Review our current audition requirements form to prepare.</p>
+                        </div>
+                    </div>
+                    <div class="join-step">
+                        <div class="step-num">2</div>
+                        <div class="step-content">
+                            <h4>Prepare a Song</h4>
+                            <p>Optional — bring sheet music or sing a familiar song like "Happy Birthday."</p>
+                        </div>
+                    </div>
+                    <div class="join-step">
+                        <div class="step-num">3</div>
+                        <div class="step-content">
+                            <h4>Private Audition</h4>
+                            <p>Sing for our Artistic Director in a relaxed, supportive environment.</p>
+                        </div>
+                    </div>
+                    <div class="join-step">
+                        <div class="step-num">4</div>
+                        <div class="step-content">
+                            <h4>Join the Chorus!</h4>
+                            <p>Find your place among 100+ voices at the historic Plaza Theatre.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         📸 PHOTO BREAK — Outreach
+         ============================================================ -->
+    <div class="photo-break">
+        <img src="img-outreach.png" alt="PSGMC community outreach volunteering">
+        <div class="photo-overlay"></div>
+        <div class="photo-caption"><span>Chorus Cares · Martha's Village Toy Drive · School Supply Drives</span></div>
+    </div>
+
+
+    <!-- ============================================================
+         SUPPORT / MAESTRO'S CIRCLE
+         ============================================================ -->
+    <section class="support-section" id="support">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">🌟 Support Our Mission</span>
+                <h2>Maestro's <span class="gradient-text">Circle</span></h2>
+                <p>Your generosity helps PSGMC bring productions to life, support LGBTQ youth, and challenge homophobia through the power of music.</p>
+            </div>
+
+            <div class="support-tiers stagger-children">
+                <div class="tier-card">
+                    <div class="tier-icon">🎵</div>
+                    <h3>Performer</h3>
+                    <div class="tier-price">$250 – $499</div>
+                    <ul>
+                        <li>Concert program acknowledgement</li>
+                        <li>Maestro's Circle lapel pin</li>
+                    </ul>
+                </div>
+                <div class="tier-card">
+                    <div class="tier-icon">🎹</div>
+                    <h3>Accompanist</h3>
+                    <div class="tier-price">$500 – $999</div>
+                    <ul>
+                        <li>All Performer benefits</li>
+                        <li>Spring appreciation event (2 seats)</li>
+                    </ul>
+                </div>
+                <div class="tier-card featured">
+                    <div class="tier-icon">🎼</div>
+                    <h3>Conductor</h3>
+                    <div class="tier-price">$1,000 – $1,499</div>
+                    <ul>
+                        <li>All Accompanist benefits</li>
+                        <li>"Sneak Peek" donor brunch (2 seats)</li>
+                        <li>Spring event (4 seats)</li>
+                    </ul>
+                </div>
+                <div class="tier-card">
+                    <div class="tier-icon">⭐</div>
+                    <h3>Star</h3>
+                    <div class="tier-price">$5,000+</div>
+                    <ul>
+                        <li>All previous tier benefits</li>
+                        <li>6 top-tier tickets per show</li>
+                        <li>Special program recognition</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;" class="reveal">
+                <a href="https://psgmc.app.neoncrm.com/np/clients/psgmc/donation.jsp?campaign=1&" target="_blank" class="btn btn-primary" style="font-size: 1.1rem; padding: 18px 48px;">❤️ Make a Donation</a>
+                <p style="margin-top: 1rem; font-size: 0.85rem; color: var(--text-muted);">PSGMC is a 501(c)(3) charitable organization. Tax ID: 33-0878639</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         LEADERSHIP — Key Team
+         ============================================================ -->
+    <section class="leadership-section" id="leadership">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="tag">👥 Our Team</span>
+                <h2>Artistic <span class="gradient-text">Leadership</span></h2>
+            </div>
+
+            <div class="leadership-grid stagger-children">
+                <div class="leader-card">
+                    <div class="leader-avatar">JF</div>
+                    <h4>Jerry R. Soria-Foust</h4>
+                    <div class="leader-role">Artistic Director</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: var(--grad-warm);">JB</div>
+                    <h4>Joel Baker</h4>
+                    <div class="leader-role">Principal Accompanist</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: var(--grad-cool);">CP</div>
+                    <h4>Chip Prince</h4>
+                    <div class="leader-role">The Arrangement Director</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: var(--grad-sunset);">DN</div>
+                    <h4>Doug Nagel</h4>
+                    <div class="leader-role">Vocal Coach</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: var(--grad-ocean);">JK</div>
+                    <h4>Jeff Kopasz</h4>
+                    <div class="leader-role">Music & Rehearsal Asst.</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: linear-gradient(135deg, #FFD600, #00C853);">MC</div>
+                    <h4>Martin Coogan</h4>
+                    <div class="leader-role">ASL Interpreter</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: linear-gradient(135deg, #E91E63, #FF6D00);">JN</div>
+                    <h4>Joe Nelson</h4>
+                    <div class="leader-role">Board President</div>
+                </div>
+                <div class="leader-card">
+                    <div class="leader-avatar" style="background: linear-gradient(135deg, #AA00FF, #2979FF);">SB</div>
+                    <h4>Steve Baker</h4>
+                    <div class="leader-role">Chorus Administrator</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         BOOK THE CHORUS — CTA Section with background image
+         ============================================================ -->
+    <section style="padding: 0; position: relative; overflow: hidden;">
+        <div class="photo-break" style="height: 60vh; min-height: 450px; display: flex; align-items: center; justify-content: center;">
+            <img src="img-stage.png" alt="Chorus performing on stage" style="position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover;">
+            <div style="position: absolute; inset: 0; background: rgba(10,10,15,0.75); backdrop-filter: blur(2px);"></div>
+            <div class="container" style="position: relative; z-index: 2; text-align: center;">
+                <div class="reveal">
+                    <h2 style="font-size: clamp(2rem, 5vw, 3.5rem); margin-bottom: 1rem;">Book the <span class="gradient-text">Chorus</span></h2>
+                    <p style="color: var(--text-secondary); max-width: 700px; margin: 0 auto 1rem; font-size: 1.1rem;">The Palm Springs Gay Men's Chorus is approximately 100 voices strong and is available for large-scale public and private events, or for intimate gatherings with The Arrangement.</p>
+                    <p style="color: var(--text-muted); max-width: 600px; margin: 0 auto 2rem; font-size: 0.95rem;">Repertoire ranges from the Star Spangled Banner to Broadway hits from Hairspray, Les Mis, and The Greatest Showman.</p>
+                    <a href="https://psgmc.com/book/" target="_blank" class="btn btn-primary">📧 Inquire About Booking</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ============================================================
+         FOOTER
+         ============================================================ -->
+    <footer class="footer" id="contact">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <span class="nav-logo-text" style="font-size: 1.8rem;"><span class="gradient-text">PSGMC</span></span>
+                    <p>Palm Springs Gay Men's Chorus — A Chorus Like No Other. The Official Gay Men's Chorus of the City of Palm Springs.</p>
+                    <div class="footer-social">
+                        <a href="https://www.facebook.com/PalmSpringsGayMensChorus/" target="_blank" aria-label="Facebook">f</a>
+                        <a href="https://www.youtube.com/@psgmcpalmspringsgaymenscho316" target="_blank" aria-label="YouTube">▶</a>
+                        <a href="https://www.instagram.com/psgmcchorus" target="_blank" aria-label="Instagram">📷</a>
+                    </div>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Explore</h4>
+                    <a href="#story">About</a>
+                    <a href="#timeline">History</a>
+                    <a href="#performances">Past Performances</a>
+                    <a href="#leadership">Leadership</a>
+                    <a href="#videos">Videos</a>
+                    <a href="#gallery">Photo Gallery</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Get Involved</h4>
+                    <a href="#join">Auditions</a>
+                    <a href="https://psgmc.com/book/" target="_blank">Book Us</a>
+                    <a href="#outreach">Outreach</a>
+                    <a href="https://app.chorusconnection.com/sign_in" target="_blank">Members Portal</a>
+                </div>
+
+                <div class="footer-col">
+                    <h4>Support</h4>
+                    <a href="https://psgmc.z2systems.com/np/clients/psgmc/donation.jsp?campaign=1&" target="_blank">Donate</a>
+                    <a href="#support">Maestro's Circle</a>
+                    <a href="https://psgmc.z2systems.com/np/clients/psgmc/donation.jsp?campaign=2&" target="_blank">Anti-Bullying Fund</a>
+                    <a href="https://psgmc.com/legacy-society/" target="_blank">Legacy Society</a>
+                    <a href="https://psgmc.app.neoncrm.com/forms/givingtuesday2025" target="_blank">Giving Tuesday</a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Palm Springs Gay Men's Chorus. All rights reserved. 501(c)(3) · Tax ID: 33-0878639</p>
+                <div style="display: flex; gap: 1.5rem;">
+                    <a href="https://psgmc.com/privacy-policy/" target="_blank">Privacy Policy</a>
+                    <a href="https://psgmc.com/find-us/" target="_blank">Contact</a>
+                    <a href="mailto:info@psgmc.com">info@psgmc.com</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
